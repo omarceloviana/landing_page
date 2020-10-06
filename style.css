@@ -1,0 +1,93 @@
+/*Da o estilo para todos os elementos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /*Fonte de letra de todo o texto do body*/
+    background-color: black; /*Cor de fundo*/
+}
+
+.container{
+    max-width: 1000px; /*Define a largura máxima do elemento*/
+    margin: auto; /*Se adapta ao tamanho da tela*/
+}
+
+header{
+    background-color:#488dce; /*Cor de fundo*/
+    text-align: center; /*Alinhamento do texto*/
+    color: white; /*Cor da letra*/
+}
+
+.title{
+    font-size: 26px; /*Tamanho da letra do título*/
+
+}
+
+section{
+    padding: 20px; /*Distância da borda*/
+    background-image: url('./img/people.jpg'); /*Imagem de fundo*/
+    background-size: cover; /*Especifica o tamanho da imagem*/
+    overflow: hidden; /*Diferentes valores dentro da mesma propriedade*/
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float:right;
+}
+
+h2{
+    font-size: 16px; /*Tamanho da letra*/
+
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color:#488dce;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.picture{
+    width: 160px;
+
+}
+
+footer{
+    background-color:#202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+  
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
